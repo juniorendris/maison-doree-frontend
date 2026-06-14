@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="maison.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+/>
+</head>
+<body>
+<main>
+    <header class="header-section" >
+       <div class="header-container">
+         <p class="name" onclick="menuList()">Maison <span> Dorée</span></p> 
+        <nav class="nav-content">
+           <ul class="link-contents">
+            <li class="link-cross">
+                <i class="fa-solid fa-x" onclick="linkClose()"></i>
+            </li>
+            <p class="link-item">
+             <a href="#collections" class="link top-link" onclick="linkClose()">Collections</a>
+            </p>  
+            </li>
+            <li class="link-item">
+                <a href="#Our-Story" class="link" onclick="linkClose()">Our Story</a>
+            </li>
+            <li class="link-item">
+                <a href="#craftsmanship" class="link" onclick="linkClose()">Craftsmanship</a>
+            </li>
+                        <li class="link-item">
+                <a href="#visit-us" class="link" onclick="linkClose()">Visit Us</a>
+            </li>
+             </li>
+             <li class="link-item link-bottom" >
+                 <a href="#" class="link"><button class="menu-button">BOOK APOINTMENT</button></a>
+            </li>
+           </ul>
+           <p class="menu-icon" onclick="menuList()">
+               <i class="fa-solid fa-bars"></i>
+            </p>
+        </nav>
+       </div>
+    </header> 
+    <section class="hero-section">
+      <div class="hero-container">
+            <div class="discription-content">
+            <p class="year reveal" style="transition-delay: 0.1s;">Artisan Gold Jewelry Since 1987</p>
+            <p class="content-title reveal" style="transition-delay: 0.3s;">Where Gold Becomes <span class="gold-span reveal">Art</span></p>
+            <p class="discription-p reveal" style="transition-delay: 0.5s;">Each piece in our collection is handcrafted by master artisans, transforming the finest gold into wearable works 
+                of art that tell your unique story.</p>
+            <article class="first-page-button-container reveal" style="transition-delay: 0.7s;">
+                <button class="hero-botton">EXPLORE COLLECTIONS</button>
+           <p class="heritage"><a href="#" class="link">Our Heritage  <span class="link-aray">→</span></a></p></article>
+          </div>
+          <div class="swiper">
+        <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+                <img src="maison-hero-01.jpg" alt="" class="image"><article class="about-the-product reveal"><p class="photo-name">Serpentine Collection <span class="cost" >From $2,400</span></p>
+               </article>  
+            </li>
+                  
+            <li class="swiper-slide">
+                <img src="maison-hero-02.jpg" alt="" class="image"> <article class="about-the-product reveal">
+                     <p class="photo-name">Aurora Pendant<span class="cost" >From $4,850</span></p>
+                   </article>
+            </li> 
+            <li class="swiper-slide">
+                <img src="maison-hero-03.jpg" alt="" class="image">
+                <article class="about-the-product reveal">
+                    <p class="photo-name">SHeritage Rings<span class="cost" >From $3,200</span>
+                    </p>
+                    </article>
+            </li> 
+        </ul>
+    </div>
+      </div>
+        </section> 
+     <section class="page-2-section">
+          <div class="new-item-container">
+      <div class="jolery reveal">
+        <img src="maison-hero-02.jpg" alt="nn">
+        <p class="jolery-states">New Arrival</p>
+      </div>
+          <div class="featured-piece reveal">
+     <p class="Featured-Piece-p">Featured Piece</p>
+    <p class="featured-title">Aurora Pendant</p>
+    <p class="featured-description">
+        Inspired by the ethereal dance of northern lights, the Aurora Pendant captures the fluid movement of light through hand-hammered 22-karat gold. Each surface catches and reflects light differently, creating a mesmerizing display of golden hues.
+    </p>
+
+    <div class="featured-details">
+
+        <div class="detail-item">
+            <p class="label">Material</p>
+            <p class="value">22K Yellow Gold</p>
+        </div>
+
+        <div class="detail-item">
+            <p class="label">Weight</p>
+            <p class="value">18.5 grams</p>
+        </div>
+
+        <div class="detail-item">
+            <p class="label">Chain Length</p>
+            <p class="value">18 inches (adjustable)</p>
+        </div>
+
+    </div>
+   <div class="price">
+            <p class="value">$4,850</p>
+   </div>
+
+        <button class="inquire-button">
+            Inquire About This Piece
+        </button>
+</div>
+          </div>
+        </section> 
+        <section class="item-colloction" id="collections">
+            <div class="third-page-container">
+               <div class="page-description">
+                <p1 class="title reveal" style="transition-delay: 0.2s;">Our Collections</p1>
+               <div class="discover-content">
+                 <p class="text reveal" style="transition-delay: 0.3s;">Discover pieces crafted for every chapter of your story</p>
+                <div class="view-link reveal" style="transition-delay: 0.4s;"><a href="#">view all collections</a> <span class="aray-link">→</span>
+                </div>
+               </div>
+               </div>
+               <div class="gallery-container">
+                <div class="gallery-main grid-item">
+               <img src="maison-hero-03.jpg" alt="Bridal Ring"  class="reveal"/>
+                  <div class="overlay-text">
+                  <h2>Bridal</h2>
+                  <p>24 pieces</p>
+                </div>
+               </div>
+
+    <!-- RIGHT GRID -->
+               <div class="gallery-grid">
+                     <div class="right-1"><div class="grid-item-1 grid-item">
+                     <img src="maison-doree-01.jpg" alt="Jewelry 1"class="reveal" />
+               <div class="overlay-text">
+                  <h2>Everyday Elegance</h2>
+                  <p>24 pieces</p>
+                </div>
+                     </div>
+
+                 <div class="grid-item-2 grid-item">
+                   <img src="maison-doree-02.jpg" alt="Jewelry 2" class="reveal" />
+                    <div class="overlay-text">
+                  <h2>Statement</h2>
+                  <p>18 pieces</p>
+                </div>
+                 </div></div>
+              <div class="right-2">
+                 <div class="grid-item-2 grid-item">
+                <img src="maison-doree-03.jpg" alt="Jewelry 3" class="reveal"/>
+                 <div class="overlay-text">
+                  <h2>Heritage</h2>
+                  <p>12 pieces</p>
+                </div>
+                </div>
+
+                   <div class="grid-item-1 grid-item">
+                <img src="maison-doree-04.jpg" alt="Jewelry 4" class="reveal" />
+                <div class="overlay-text">
+                  <h2>Men's Collectione</h2>
+                  <p>15 pieces</p>
+                </div>
+                  </div>
+              </div>
+            </div>
+            </div>
+            </div>
+        </section>  
+        <section class="service-section reveal" id="Our-Story" style="transition-delay: 0.3s;">
+            <div class="service-container">
+                   <div class="left">
+        <div class="tag">Our Heritage</div>
+
+        <p class="the-secrite">Three Generations of Golden Mastery</p>
+        <p class="description">
+            Founded in 1987 by master goldsmith Henri Beaumont, Maison Dorée
+            has remained a family atelier dedicated to the art of fine gold jewelry.
+            What began in a small workshop in the heart of the jewelry district
+            has blossomed into a celebrated house known for impeccable craftsmanship.
+        </p>
+
+        <p class="description">
+            Today, our third-generation artisans continue the tradition, blending
+            time-honored techniques with contemporary design sensibilities.
+            Every piece that leaves our workshop carries the weight of this legacy.
+        </p>
+
+        <div class="signature">Isabelle Beaumont</div>
+        <div class="role">CREATIVE DIRECTOR</div>
+    </div>
+    <div class="right">
+        <div class="img-box">
+            <img src="maison-doree-05.jpg" alt="Jewelry 1">
+        </div>
+
+        <div class="img-box second">
+            <img src="maison-doree-06.jpg" alt="Jewelry 2">
+        </div>
+          </div>
+            </div> 
+         
+        </section>
+        <section class="art-of-creation-section" id="craftsmanship">
+    <div class="art-container reveal">
+        <div class="content-side">
+            <p class="sub-headline">THE ART OF CREATION</p>
+            <p class="title">Crafted by Hand, Treasured Forever</p>
+            
+            <p class="description">
+                Each Maison Dorée piece undergoes a meticulous journey from concept to completion. 
+                Our artisans employ traditional goldsmithing techniques passed down through generations, 
+                ensuring every curve, texture, and finish meets our exacting standards.
+            </p>
+
+            <ul class="features-list">
+                <li><span>-</span>Hand-selected materials from ethical sources</li>
+                <li><span>-</span>Traditional lost-wax casting and hand-forging</li>
+                <li><span>-</span>Multiple quality inspections at every stage</li>
+                <li><span>-</span>Personalized finishing and custom sizing</li>
+            </ul>
+
+            <a href="#" class="cta-button">COMMISSION A CUSTOM PIECE</a>
+        </div>
+
+        <div class="image-side">
+            <div class="image-wrapper">
+                <img src="maison-doree-07.jpg" alt="Diamond  Bracelet" class="reveal" style="transition-delay: 0.2s;">
+                
+                <div class="stats-overlay" style="transition-delay: 0.5s;">
+                    <div class="stat-item">
+                        <span class="stat-number">37</span>
+                        <span class="stat-label">YEARS OF EXCELLENCE</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">12</span>
+                        <span class="stat-label">MASTER ARTISANS</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">8K+</span>
+                        <span class="stat-label">PIECES CREATED</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="testimonials-section">
+  <div class="testimonials-container">
+    
+    <div class="testimonials-header">
+      <p class="subtitle reveal" style="transition-delay: 0.1s;">CLIENT STORIES</p>
+      <p class="title reveal" style="transition-delay: 0.2s;">Treasured by Many</p>
+      <p class="intro-text reveal" style="transition-delay: 0.3s;">What our clients say about their Maison Dorée 
+        experience</p>
+    </div>
+
+    <div class="testimonials-grid">
+      
+      <article class="testimonial-card reveal"  style="transition-delay: 0.1s;">
+        <div class="quote-mark">“</div>
+        <div class="star-rating">★★★★★</div>
+        <p class="testimonial-body reveal" style="transition-delay: 0.4s;">
+          The attention to detail is extraordinary.
+           My wedding set from Maison Dorée isn't just jewelry — 
+           it's a work of art that I'll cherish forever.
+        </p>
+        <div class="client-meta">
+          <img src="avatar-01.jpg" alt="Catherine W." class="avatar">
+          <div class="client-info reveal">
+            <span class="name">Catherine W.</span>
+            <span class="category">Bridal Collection</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="testimonial-card reveal" style="transition-delay: 0.3s;">
+        <div class="quote-mark">“</div>
+        <div class="star-rating reveal">★★★★★</div>
+        <p class="testimonial-body reveal"  style="transition-delay: 0.5s;">
+          Working with the design team to create a custom anniversary
+           gift was seamless. They understood my vision and exceeded
+            expectations.
+        </p>
+        <div class="client-meta">
+          <img src="avatar-02.jpg" alt="Michael T." class="avatar">
+          <div class="client-info reveal">
+            <span class="name">Michael T.</span>
+            <span class="category">Custom Design</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="testimonial-card reveal" style="transition-delay: 0.5s;">
+        <div class="quote-mark">“</div>
+        <div class="star-rating reveal">★★★★★</div>
+        <p class="testimonial-body reveal">
+          Three generations of my family have now worn 
+          pieces from Maison Dorée. The quality is unmatched 
+          and each piece tells our story.
+        </p>
+        <div class="client-meta reveal">
+          <img src="avatar-03.jpg" alt="Eleanor M." class="avatar">
+          <div class="client-info">
+            <span class="name">Eleanor M.</span>
+            <span class="category">Heritage Collection</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+<section class="appointment-section" id="visit-us">
+  <div class="appointment-container">
+    <div class="appointment-info">
+      <div class="info-header">
+        <p class="subtitle reveal" style="transition-delay: 0.1s;">VISIT OUR ATELIER</p>
+        <p class="title reveal" style="transition-delay: 0.2s;">Experience Maison Dorée</p>
+        <p class="intro-text reveal" style="transition-delay: 0.3s;">
+          We invite you to visit our atelier for a personal consultation. 
+          Discover our collections in an intimate setting and work with our 
+          designers to create something truly unique.
+        </p>
+       </div>
+      <div class="contact-details">
+        <div class="detail-group reveal" style="transition-delay: 0.4s;">
+          <p class="label">ADDRESS</p>
+          <p class="description">742 Fifth Avenue, Suite 1200 </p>
+          <p class="description">New York, NY 10019</p>
+        </div>
+
+        <div class="detail-group reveal" style="transition-delay: 0.5s;">
+          <p class="label">HOURS</p>
+          <p class="description">Tuesday-Saturday, 10:00 AM to 06:00 PM</p>
+          <p class="description">Sunday-Monday, By Appointment</p>
+        </div>
+
+        <div class="detail-group reveal" style="transition-delay: 0.6s;">
+          <p class="label">CONTACT</p>
+        <a href="tel:+12125551234" class="description">+1 (212) 555-1234</a>
+        <a href="mailto:hello@maisondoree.com" class="description">hello@maisondoree.com</a>
+        </div>
+      </div>
+    </div>
+    <div class="appointment-form-wrapper">
+      <form action="#" class="appointment-form">
+        <p class="form-title reveal">Request an Appointment</p>
+
+        <div class="form-group reveal" style="transition-delay: 0.1s;">
+          <label for="full-name">Full Name</label>
+          <input type="text" id="full-name" name="full-name" required>
+        </div>
+
+        <div class="form-group reveal" style="transition-delay: 0.3s;">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group reveal" style="transition-delay: 0.5s;">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+
+        <div class="form-group reveal" style="transition-delay: 0.7s;">
+          <label for="message">Tell Us About Your Visit</label>
+          <textarea id="message" name="message" placeholder="Interested in a specific collection? Planning a custom piece?"></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit reveal">REQUEST APPOINTMENT</button>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<footer class="main-footer">
+  <div class="footer-container">
+    
+   <div class="top-footer">
+         <div class="footer-col brand-info">
+      <p class="footer-logo">Maison <span>Dorée</span></p>
+      <p class="brand-description">
+        Handcrafted gold jewelry of exceptional quality and timeless elegance. Family-owned atelier since 1987.
+      </p>
+      <div class="contact-info">
+        <p>742 Fifth Avenue, Suite 1200</p>
+        <p>New York, NY 10019</p>
+        <a href="tel:+12125551234">+1 (212) 555-1234</a>
+        <a href="mailto:hello@maisondoree.com">hello@maisondoree.com</a>
+      </div>
+    </div>
+
+    <article class="same-footer-col">
+      <div class="footer-col">
+      <p class="col-title">COLLECTIONS</p>
+      <ul class="footer-links">
+        <li><a href="#">All Collections</a></li>
+        <li><a href="#">Bridal</a></li>
+        <li><a href="#">Everyday Elegance</a></li>
+        <li><a href="#">Statement Pieces</a></li>
+        <li><a href="#">Men's Collection</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <p class="col-title">COMPANY</p>
+      <ul class="footer-links">
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Craftsmanship</a></li>
+        <li><a href="#">Visit Us</a></li>
+        <li><a href="#">Custom Design</a></li>
+        <li><a href="#">Care Guide</a></li>
+      </ul>
+    </div>
+    </article>
+
+    <div class="footer-col about-site">
+      <p class="col-title">ABOUT THIS WEBSITE</p>
+      <p >This is a free HTML CSS template designed for gold jewelry boutiques and luxury brands.</p>
+      <p>You may download and use this template for your website. Please support us by keeping the credit link to <a href="#">TemplateMo</a>.</p>
+      <p>Images: <a href="#">Unsplash</a></p>
+    </div>
+    </div>
+     <div class="footer-bottom">
+    <p>&copy; 2026 Maison Dorée. Design: <a href="#">TemplateMo</a></p>
+    <div class="social-links">
+      <a href="#">Instagram</a>
+      <a href="#">Pinterest</a>
+      <a href="#">Facebook</a>
+    </div>
+  </div>
+  </div>
+
+</footer>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+<script>
+const initScrollReveal = () => {
+  const options = {
+    threshold: 0.2, // Trigger when 20% of the element is visible
+    rootMargin: "0px 0px -50px 0px" // Slight offset so it feels more natural
+  };
+
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        // Add the class that triggers the CSS animation
+        entry.target.classList.add('active');
+        
+        // IMPORTANT: Stop watching this element (saves memory/battery)
+        observer.unobserve(entry.target);
+      }
+    });
+  }, options);
+
+  // Grab everything with the reveal class and start the sensor
+  const targets = document.querySelectorAll('.reveal');
+  targets.forEach((target) => observer.observe(target));
+};
+// Run once the page is fully loaded
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initScrollReveal);
+} else {
+  initScrollReveal();
+}</script>
+<script  src="maison.js"></script>
+</body>
+</html>
