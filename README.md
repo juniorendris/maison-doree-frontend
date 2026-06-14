@@ -2,7 +2,7 @@
 
 A sophisticated, fully responsive landing page built for an elite gold jewelry boutique and artisan atelier. This project showcases elegant front-end engineering, fluid responsive layouts, and seamless visual transitions tailored for premium brand experiences.
 
-[🔗 Live Demo](https://your-username.github.io/maison-doree-frontend/)
+[🔗 Live Demo](https://juniorendris.github.io/maison-doree-frontend/)
 
 ---
 
